@@ -19,3 +19,6 @@ lb_ip = "51.250.43.99"
 Than you can go to http://lb_ip and add your wordpress template to that installation :\
 ![Wordpress](https://github.com/makkorostelev/OTUS_Homework_5/blob/main/Screenshots/wordpress.png)
 Even if one of nginx or pxc servers will be shutdown everything will work as it should
+
+PXC CUSTER INFO:
+![Cluster_info](https://github.com/makkorostelev/OTUS_Homework_5/blob/main/Screenshots/wsrep_cluster.png)
