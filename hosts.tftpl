@@ -1,0 +1,14 @@
+[backend]
+%{ for addr in backend_instances ~}
+${addr}
+%{ endfor ~}
+
+[nginx]
+%{ for addr in nginx_instances ~}
+${addr}
+%{ endfor ~}
+
+[database]
+%{ for addr in database_instances ~}
+${addr}
+%{ endfor ~}
