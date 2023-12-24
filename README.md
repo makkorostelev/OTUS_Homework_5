@@ -1,6 +1,6 @@
 # OTUS_Homework_5
  
-Project creates one YC LB, 2 nginx proxy server, 2 nginx+php-fpm+wordpress backends and pxc cluster(3 servers in cluster).\
+Project creates one YC LB, 2 nginx proxy server, 2 nginx+php-fpm+wordpress backends and pxc cluster+proxysql(3 servers in cluster).\
 To work with the project you need to write your data into variables.tf.\
 ![Variables](https://github.com/makkorostelev/OTUS_Homework_5/blob/main/Screenshots/variables.png)\
 Then enter the commands:
